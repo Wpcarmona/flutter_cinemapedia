@@ -33,14 +33,14 @@ class MovieMovieDB {
 
     factory MovieMovieDB.fromJson(Map<String, dynamic> json) => MovieMovieDB(
         adult: json["adult"] ??  false,
-        backdropPath: json["backdrop_path"],
+        backdropPath: json["backdrop_path"] ?? 'https://www.huber-online.com/daisy_website_files/_processed_/8/0/csm_no-image_d5c4ab1322.jpg',
         genreIds: List<int>.from(json["genre_ids"].map((x) => x)),
         id: json["id"],
         originalLanguage: json["original_language"],
         originalTitle: json["original_title"],
         overview: json["overview"] ?? '',
         popularity: json["popularity"]?.toDouble(),
-        posterPath: json["poster_path"],
+        posterPath: json["poster_path"] ?? 'https://upload.wikimedia.org/wikipedia/commons/b/b9/No_Cover.jpg?20090511140841',
         releaseDate: DateTime.parse(json["release_date"]),
         title: json["title"],
         video: json["video"],
