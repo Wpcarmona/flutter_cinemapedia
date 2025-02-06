@@ -21,5 +21,4 @@ samples, guidance on mobile development, and a full API reference.
 1. copiar el .env.template y renombrarlo a .env
 2. cambiar las varaibles de entorno(The MovieDB)
 
-
-apikey = b44e3e4eb40cf91fd9f2fcc66fb96815
+tmdbapk=b44e3e4eb40cf91fd9f2fcc66fb96815
