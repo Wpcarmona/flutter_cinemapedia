@@ -45,12 +45,12 @@ class FavoriesViewState extends ConsumerState<FavoriesView> {
               color: colors.primary,
               size: 100,
             ),
-            const Text('Ohhh noooo!!', style: TextStyle(fontSize: 30, color: Colors.black45),),
-            const Text('No tienes peliculas favoritas', style: TextStyle(fontSize: 20, color: Colors.black45),),
+            const Text('Ohhh noooo!!', style: TextStyle(fontSize: 30,),),
+            const Text('No tienes peliculas favoritas', style: TextStyle(fontSize: 20),),
             const SizedBox(height: 20),
             FilledButton.tonal(
               onPressed: () => context.go('/home/0'), 
-              child: const Text('Explorar', style: TextStyle(color: Colors.black45),)),
+              child: const Text('Explorar')),
           ],
         ),
       );
