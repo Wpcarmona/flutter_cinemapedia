@@ -131,7 +131,7 @@ class BelongsToCollection {
         id: json["id"],
         name: json["name"],
         posterPath: json["poster_path"],
-        backdropPath: json["backdrop_path"],
+        backdropPath: json["backdrop_path"] ?? 'https://m.media-amazon.com/images/M/MV5BYWI2NTJiN2MtZGY2Ny00NTg2LTk0YzMtYTZjYjE5NDMwNGY2XkEyXkFqcGc@._V1_.jpg',
     );
 
     Map<String, dynamic> toJson() => {

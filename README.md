@@ -20,5 +20,9 @@ samples, guidance on mobile development, and a full API reference.
 
 1. copiar el .env.template y renombrarlo a .env
 2. cambiar las varaibles de entorno(The MovieDB)
+3. cambios en la entidad hay que ejecutar el comando 
+```
+flutter pub run build_runner build
+```
 
 tmdbapk=b44e3e4eb40cf91fd9f2fcc66fb96815
